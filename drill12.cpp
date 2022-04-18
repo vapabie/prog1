@@ -1,5 +1,5 @@
-#include "./GUI/Simple_window.h"
-#include "./GUI/Graph.h"
+#include "./GUI/Simple_window.h"        // get access to our window library
+#include "./GUI/Graph.h"        // get access to our graphics library facilities
 
 #include <string>
 #include <iostream>
@@ -10,14 +10,14 @@ g++ -w -Wall -std=c++11 GUI/Graph.cpp GUI/Window.cpp GUI/GUI.cpp GUI/Simple_wind
 */
 
 
-using namespace Graph_lib;
+using namespace Graph_lib;      // our graphics facilities are in Graph_lib
 
 int main(){
 
         try{
         
-        Point t1 {100, 100};
-        Simple_window win {t1, 600, 400, "My window"};
+        Point t1 {100, 100};    // to become top left corner of window
+        Simple_window win {t1, 600, 400, "My window"};  // to become top left corner of window
         win.wait_for_button();
         
         Axis xa {Axis::x, Point{20, 300}, 280, 10, "x axis"}; //x tengely
@@ -42,7 +42,7 @@ int main(){
         win.wait_for_button();
         
         
-        Polygon poly; //háromszög itt
+        Polygon poly; //háromszög 
         poly.add(Point{300, 200});
         poly.add(Point{350, 100});
         poly.add(Point{400, 200});
