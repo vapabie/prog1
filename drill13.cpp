@@ -12,10 +12,10 @@ int main(){
         Simple_window win(t1, 1000, 800, "My window");
         win.wait_for_button();
         
-        Lines grid;
+        Lines grid;	//rácsvonal 
         int x_size = 800;
         int y_size = 800;
-        for(int i=100; i<=x_size; i+=100){
+        for(int i=100; i<=x_size; i+=100){		
                 grid.add(Point(i,0), Point(i, y_size));
                 grid.add(Point(0, i), Point(x_size, i));
         }
@@ -34,7 +34,7 @@ int main(){
         
     */
     
-    	Rectangle rect00 {Point{0,0},100,100};
+    	Rectangle rect00 {Point{0,0},100,100};		//átló kockái
 	Rectangle rect11 {Point{100,100},100,100};
 	Rectangle rect22 {Point{200,200},100,100};
 	Rectangle rect33 {Point{300,300},100,100};
