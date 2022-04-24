@@ -58,16 +58,7 @@ try{
              	cout << "the root of " << i << " is:" << sqrt(i)<< '\n';
                     };
                 
-      /*
-     	  int i;
-        cout << "\nEnter ints\n";
-        while(cin >> i){
-            errno =0;
-            if(errno == EDOM)
-            cout << "no square root\n";
-            else
-                    cout << "sqrt("<< i <<") =" << d << '\n';
-        }*/
+      
      //5.feladat i think
      
         cin.clear();
