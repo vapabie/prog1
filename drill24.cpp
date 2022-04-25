@@ -59,7 +59,7 @@ try{
                     };
                 
       
-     //5.feladat i think
+     //5.feladat 
      
         cin.clear();
         cin.ignore();
@@ -73,7 +73,7 @@ try{
         }
         cout << "Matrix: \n" << m2 << '\n';
         
-    //6.feladat ezzel is csak a baj van
+    //6.feladat 
        
         cout << "\nMultiplication table\nEnter n:";
         int n;
@@ -91,7 +91,7 @@ try{
                 cout << '\n';
         }
         
-     //7.feladat i hate it here
+     //7.feladat
      
         Matrix<complex<double>> m4(10);
         cout << "\nEnter 10 complex numbers (re, im): ";
@@ -108,7 +108,7 @@ try{
         }
         cout << "sum: " << sum << '\n';
         
-        //8.feladat(házi) just kill me pls 
+        //8.feladat(házi) 
         
         cout << "Enter 6 ints for a 2x3 Matrix:\n";
     	Matrix<int,2> mm (2,3);
