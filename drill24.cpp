@@ -101,9 +101,9 @@ try{
                 if(!cin) throw runtime_error("problem reading complex number!");
                 m4[i] = comp;
         }
-        cout << "comoplex matrix: " << m4 << '\n';
+        cout << "complex matrix: " << m4 << '\n';
         complex<double> sum;
-        for(Index i=0; i<m4.size(); ++i){
+        for(Index i=0; i<m4.size(); ++i){ //indexet kicserélni
                 sum+= m4[i];
         }
         cout << "sum: " << sum << '\n';
