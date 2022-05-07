@@ -103,7 +103,7 @@ try{
         }
         cout << "complex matrix: " << m4 << '\n';
         complex<double> sum;
-        for(Index i=0; i<m4.size(); ++i){ //indexet kicserélni
+        for(int i=0; i<m4.size(); ++i){ //indexet kicserélni
                 sum+= m4[i];
         }
         cout << "sum: " << sum << '\n';
@@ -116,7 +116,7 @@ try{
         		for (int j = 0; j < mm.dim2(); ++j)
             			cin >> mm[i][j];
 
-        
+        cout << "2x3 Matrix: \n"<< mm << endl;
         
         
 }catch (exception& e) {
